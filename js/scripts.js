@@ -17,10 +17,13 @@ $('#getZip').click(function() {
       // get weather OK? 
       console.log(weather);
 
+
+
       $('.temp').text(weather.temp);
       $('.city').text(weather.city);
-      $('.country').text(weather.country);
-    
+
+
+
     },  
     error: function(error) {
       $('body').html('<p>' + error + '</p>');
@@ -34,3 +37,4 @@ $('#getZip').click(function() {
 });
 
 // DO NOT ERASE ABOVE THIS//
+

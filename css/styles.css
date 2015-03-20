@@ -1,5 +1,11 @@
+
+
+
+
+
 body{
- background-image: url("../img/weather1.jpg");
+ background-image: url("../img/weatherB.jpg");
+ background-size: 100%; 
 
 }
 
@@ -20,12 +26,13 @@ margin: 0, auto;
 
 .formBox {
  background-color: lightblue;
- width:500px;
+ width:800px;
  margin: auto;
  margin-top: 100px;
  border-radius: 75px;
  box-shadow: inset 0 0 30px #000000;
- height: 300px;
+ height: 500px;
+
 }
 
 }
@@ -35,6 +42,7 @@ margin: 0, auto;
 .outcome{
 width: 200px;
 margin:auto;
+padding-left: 200px;
 padding-bottom: 30px;
 
 }
@@ -44,24 +52,29 @@ padding-bottom: 30px;
 ul {
 	 list-style-type: none;
 	 font-size: 25px;
-	 padding-left: 100px;
-	 font-style: verdana;
+	 padding-right: 50px;
+	 font-family: 'Montserrat', sans-serif;
+	 text-align: center;
 
 }
 
 
 li {
 	 list-style-type: none;
-	 font-size: 25px;
-	 padding-left: 100px;
+	 font-size: 45px;
+	 margin: auto;
+	 font-family: 'Montserrat', sans-serif;
 
 }
 
-h3 {
-	font-size: 30px;
-	padding-left: 40px;
-	font-style: verdana;
+h1 {
+	font-family: 'Montserrat', sans-serif;
+
 
 }
+
+
+
+
 
 
